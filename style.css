@@ -7,7 +7,7 @@ body {
   position: relative;
 }
 .red {
-  background: #FA7A35;
+  background: #BE9EC9;
   margin-right: 5px;
 }
 .cyan {
@@ -31,7 +31,7 @@ body {
   top: 50px;
   position: relative;
   /*height: 400px;*/
-  background: #9E1030;
+  background: #DBB1CD;
   border-radius: 100%;
   transition: 0.2s ease-in-out all;
 }
