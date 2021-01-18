@@ -1,5 +1,5 @@
 body {
-  background: #E8B5CE;
+  background:  #E8B5CE;
   min-height: 100vh;
   display: flex;
   justify-content: center;
@@ -7,35 +7,43 @@ body {
   position: relative;
 }
 .red {
-  background: #FA7A35;
+  background: #e44236;
   margin-right: 5px;
 }
 .cyan {
-  background: #56C6A9;
+  background: #25ccf7;
   margin-right: 5px;
 }
 .violet {
-  background: #6C244C;
+  background: #8b78e6;
   margin-right: 5px;
 }
 .orange {
-  background: #C62168 ;
+  background: #ea7773;
   margin-right: 5px;
 }
 .pink {
-  background: #264E36;
+  background: #bb2cd9;
 }
-
 
 .center {
   min-width: 400px;
   top: 50px;
   position: relative;
   /*height: 400px;*/
-  background:  #FFD662;
+  background: #9E1030;
   border-radius: 100%;
   transition: 0.2s ease-in-out all;
 }
+
+.center {
+    width:200px;
+    height: 400px;
+    /*background: red;*/
+    -webkit-animation: fadeinout 4s linear forwards infinite;
+    animation: fadeinout 4s linear forwards infinite;
+}
+
 @-webkit-keyframes fadeinout {
   0%,100% { opacity: 0; }
   50% { opacity: 1; }
@@ -47,13 +55,7 @@ body {
 }
 
 
-.center {
-    width:200px;
-    height: 400px;
-    /*background: red;*/
-    -webkit-animation: fadeinout 4s linear forwards infinite;
-    animation: fadeinout 4s linear forwards infinite;
-}
+
 .color-hover {
   position: absolute;
   top: 10%;
