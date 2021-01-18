@@ -7,23 +7,23 @@ body {
   position: relative;
 }
 .red {
-  background: #e44236;
+  background: #FA7A35;
   margin-right: 5px;
 }
 .cyan {
-  background: #25ccf7;
+  background: #56C6A9;
   margin-right: 5px;
 }
 .violet {
-  background: #8b78e6;
+  background: #6C244C;
   margin-right: 5px;
 }
 .orange {
-  background: #ea7773;
+  background: #C62168 ;
   margin-right: 5px;
 }
 .pink {
-  background: pink;
+  background: #264E36;
 }
 
 
